@@ -797,6 +797,9 @@
   _(" --rpc-passwd=PASSWD          Set JSON-RPC/XML-RPC password. This option will\n" \
     "                              be deprecated in the future release. Migrate to\n" \
     "                              --rpc-secret option as soon as possible.")
+#define TEXT_RPC_INTERFACE                                                  \
+  _(" --rpc-interface=INTERFACE    Bind RPC server sockets to given interface. You can\n" \
+    "                              specify interface name, IP address and hostname.")
 #define TEXT_RPC_LISTEN_ALL                                         \
   _(" --rpc-listen-all[=true|false] Listen incoming JSON-RPC/XML-RPC requests on all\n" \
     "                              network interfaces. If false is given, listen only\n" \

@@ -963,6 +963,12 @@ RPC Options
   secret authorization token using :option:`--rpc-secret` option.  See
   also :option:`--rpc-listen-port` option.  Default: ``false``
 
+.. option:: --rpc-interface=<INTERFACE>
+
+  Bind RPC sockets to given interface. You can specify interface name, IP
+  address and host name.
+  Possible Values: interface, IP address, host name
+
 .. option:: --pause[=true|false]
 
   Pause download after added. This option is effective only when
